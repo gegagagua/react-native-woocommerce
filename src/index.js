@@ -4,6 +4,7 @@ import Product from './pages/Product'
 import FooterComp from './components/FooterComp'
 import { Container, Header, Title, Content, Left, Right, Body, Icon } from 'native-base';
 import { Router, Scene, Stack } from 'react-native-router-flux';
+import SingleProduct from './pages/SingleProduct'
 
 export default class Index extends React.Component {
   render() {
@@ -15,6 +16,11 @@ export default class Index extends React.Component {
                 key="Product"
                 component={Product}
                 title="Product"
+              />
+              <Scene
+                key="SingleProduct"
+                component={SingleProduct}
+                title="SingleProduct"
               />
             </Stack>
 				  </Router>

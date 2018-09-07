@@ -122,7 +122,7 @@ export default class Product extends Component {
 				<Animated.View style={[css.toolbarView, {transform: [{translateY: this.state._animatedMenu}]}]}>
 					<TextInput style={css.inputSearch} underlineColorAndroid='rgba(0,0,0,0)' placeholder={'Search'}/>
 				</Animated.View>
-
+				
 				<ScrollView
 					style={{paddingTop: 106}}
 					onScroll={this.onScroll.bind(this)} scrollEventThrottle={30}

@@ -24,7 +24,7 @@ export default class FooterComp extends React.Component {
         
         switch (num) {
             case 1:
-                Actions.Homepage();
+                Actions.Product();
                 break;
         }
     }

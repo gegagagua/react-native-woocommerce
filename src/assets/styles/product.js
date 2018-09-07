@@ -182,6 +182,9 @@ export default StyleSheet.create({
     "detailsDropdown": {
         "fontSize": 16
     },
+    "bigTitle": {
+        "fontSize": 26
+    },
     "backBtn": {
         "backgroundColor": "transparent",
         "height": 15,
